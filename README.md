@@ -1,5 +1,5 @@
 # Odin Recipe Project
 
-## Live Preview
+## Live Preview 👇
 
-    [Odin Recipe Project](https://yongba06.github.io/odin-recipes/)
+[Odin Recipe Project](https://yongba06.github.io/odin-recipes/)
