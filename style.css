@@ -14,6 +14,12 @@ a {
   text-decoration: none;
 }
 
+a:focus,
+a:visited,
+a:active {
+  outline: none;
+}
+
 li {
   list-style: none;
 }
