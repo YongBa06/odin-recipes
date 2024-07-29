@@ -9,6 +9,14 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
 a {
   text-decoration: none;
 }
