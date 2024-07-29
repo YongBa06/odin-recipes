@@ -3,18 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
   font-family: "Inter", sans-serif;
-}
-
-input,
-textarea,
-button,
-select,
-a {
-  -webkit-tap-highlight-color: transparent;
 }
 
 a {
