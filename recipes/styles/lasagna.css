@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.image {
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.image img {
+  margin: 3rem 0 1rem;
+  width: 100%;
+  border-radius: 18px;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.ingredient-heading,
+.step-heading,
+.subheading {
+  color: rgb(126, 37, 37);
+}
+.ingredient-heading,
+.step-heading {
+  font-size: 1.5rem;
+}
+.subheading,
+.description {
+  text-align: center;
+}
+
+.subheading {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  margin-bottom: 2rem;
+}
+
+.ingredients {
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.step-heading {
+  margin-top: 1rem;
+}
+
+.steps {
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+  }
+}
